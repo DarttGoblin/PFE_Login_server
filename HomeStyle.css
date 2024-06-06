@@ -1,0 +1,101 @@
+#subDiv {
+    height: 320px;
+    width: 420px;
+    margin-top: 15%;
+    background-image: url("InterfaceMedia/GIFs/connecting.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#connecting {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0);
+    z-index: 9999;
+    display: none;
+}
+#accessDenial {
+    font-size: 35px;
+    color: rgb(200, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    position: relative;
+    top: 0px;
+    visibility: 0;
+    opacity: 0;
+    transition: opacity 0.3s, top 0.3s;
+    user-select: text;
+}
+#submitBtn {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 50px 0px 0px 0px;
+    cursor: pointer;
+    border: none;
+}
+#submitBtn:hover {
+    color: black;
+    background-color: white;
+}
+#closingForm {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    right: -190px;
+    cursor: pointer;
+}
+#inputsCon {margin-top: 0px;}
+.formIcons {
+    color: white;
+    position: relative;
+    right: 12px;
+    top: 5px;
+}
+#formLogo {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.loginInputs {
+    background: none;
+    color: white;
+    font-size: 23px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 10px 0px 0px 0px;
+    padding: 2px 0px 0px 5px;
+    outline: none;
+}
+form {
+    justify-content: center;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-color: none;
+    width: fit-content;
+    height: fit-content;
+    margin: -2%;
+    padding: 30px 70px 20px 70px;
+}
+nav {height: 250px;}
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    background-image: url("InterfaceMedia/GIFs/HomeBackgGif.gif");
+    background-size: cover;
+    background-position: 12px -80px;
+    background-repeat: no-repeat;
+    user-select: none;
+}

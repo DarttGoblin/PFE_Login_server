@@ -1,0 +1,49 @@
+#logOut {
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(200, 200, 200);
+}
+#logOut:hover {color: rgb(150, 20, 100)}
+#usernameSpanCon {margin-top: 8%;}
+#gear {
+    font-size: 30px;
+    color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+#gear:hover {color: rgb(150, 20, 100)}
+#usernameSpan {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+#usernameSpan:hover {color: rgb(150, 20, 100);}
+#navLinksCon {
+    float: right;
+    margin: 50px 60px 0px 0px;
+}
+.navLinks {
+    color: rgb(200, 200, 200);
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+.navLinks:hover {color: rgb(150, 20, 100)};
+#logo {
+    height: 250px;
+    width: 250px;
+}
+#navLogoCon {
+    float: left;
+    display: flex;
+    margin-left: 60px;
+}
+nav {
+    height: 320px;
+    width: 100%;  
+}
