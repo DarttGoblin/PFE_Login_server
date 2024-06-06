@@ -1,0 +1,70 @@
+.markers:first-child {right: -140px; top: 260px;}
+.markers:nth-child(2) {right: -160px; top: 120px; opacity: 0.2;}
+.markers:nth-child(3) {right: -300px; top: 120px; opacity: 0.2;}
+.markers:nth-child(4) {right: -310px; top: 370px; opacity: 0.2;}
+.markers:nth-child(5) {right: 370px; top: 120px; opacity: 0.2;}
+.markers:nth-child(6) {right: 270px; top: 340px; opacity: 0.2;}
+.markers {
+    font-size: 50px;
+    font-weight: 900;
+    color: red;
+    text-shadow: 10px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+#geoMap {
+    margin-top: 150px;
+    width: 1000px;
+    height: 560px;
+    border-radius: 50px;
+    background-image: url("DashboardMedia/GeoMap.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#piegraphCon {margin-right: 100px;}
+#circularGraph {margin-left: 100px;}
+#bargraphCon {
+    width: 1000px;
+    height: 400px;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    overflow: hidden;
+    margin-left: 100px;
+}
+#linegraphCon {
+    width: 1000px;
+    height: 400px;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    overflow: hidden;
+    margin-right: 100px;
+}
+#graphsConTwo {
+    display: flex;
+    width: fit-content;
+    margin-top: 150px;
+}
+#graphsCon {
+    display: flex;
+    width: fit-content;
+}
+#pageLine {
+    background-color: rgb(200, 200, 200);
+    width: 160px;
+    height: 2px;
+    position: relative;
+    right: 188px;
+    top: -5px;
+}
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    background-image: url("../../InterfaceMedia/GIFs/earthBG.gif");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: 0px -80px;
+    background-repeat: no-repeat;
+    user-select: none;
+}

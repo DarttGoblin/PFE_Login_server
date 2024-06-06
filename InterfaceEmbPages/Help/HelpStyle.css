@@ -1,0 +1,47 @@
+#arrowIcon {
+    font-size: 23px;
+    color: white;
+    background-color: none;
+    background: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    right: 60px;
+}
+#arrowIcon:hover {background-color: rgba(200, 200, 200, 0.3);}
+#searchEng::placeholder {color: rgb(180, 180, 180);}
+#searchEng {
+    height: 60px;
+    width: 50%;
+    background-color: rgb(204, 202, 202, 0.3);
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    padding: 0px 70px 0px 30px;
+    border: none;
+}
+#pageLine {
+    background-color: rgb(200, 200, 200);
+    width: 80px;
+    height: 2px;
+    position: relative;
+    right: -237px;
+    top: -5px;
+}
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    background-image: url("../../InterfaceMedia/GIFs/earthBG.gif");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: 0px -80px;
+    background-repeat: no-repeat;
+    user-select: none;
+}

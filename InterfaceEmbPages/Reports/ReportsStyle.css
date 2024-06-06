@@ -1,0 +1,21 @@
+#pageLine {
+    background-color: rgb(200, 200, 200);
+    width: 120px;
+    height: 2px;
+    position: relative;
+    right: -98px;
+    top: -5px;
+}
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    background-image: url("../../InterfaceMedia/GIFs/earthBG.gif");
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: 0px -80px;
+    background-repeat: no-repeat;
+    user-select: none;
+}

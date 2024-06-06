@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../../InterfaceMedia/Pictures/myLogo.ico">
+		<link rel="stylesheet" href="../../InterfaceStyle/NavStyle.css"/>
+		<link rel="stylesheet" href="../../InterfaceStyle/SettingsStyle.css"/>
+		<link rel="stylesheet" href="../../InterfaceStyle/ResponsiveStyle.css"/>
+		<link rel="stylesheet" href="DashboardStyle.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>Cyber Guardian - Dashboard</title>
+    </head>
+    <body><center>
+        <nav>
+            <div id="navLogoCon">
+                <img id="logo" src="../../InterfaceMedia/Pictures/myLogo-removebg-preview.png">
+                <div id="usernameSpanCon">
+                    <i class="fa fa-arrow-left" id="logOut"></i>
+                    <span id="usernameSpan"></span>
+                    <i class="fa fa-gear" id="gear"></i>
+                </div>
+            </div>
+            <div id="navLinksCon">
+                <span class="navLinks">DASHBOARD</span>
+                <span class="navLinks">LOG</span>
+                <span class="navLinks">REPORTS</span>
+                <span class="navLinks">HELP</span>
+                <hr id="pageLine">
+            </div>
+        </nav>
+        
+        <div>
+            <div id="graphsCon">
+                <div id="linegraphCon"><canvas id="lineGraph"></canvas></div>
+                <div id="circulargraphCon"><canvas id="circularGraph"></canvas></div>
+            </div>
+            <div id="graphsConTwo">
+                <div id="piegraphCon"><canvas id="pieGraph"></canvas></div>
+                <div id="bargraphCon"><canvas id="barGraph"></canvas></div>
+            </div>
+            <div id="geoMap">
+                <i class="fas fa-map-marker markers"></i>
+                <i class="fas fa-map-marker markers"></i>
+                <i class="fas fa-map-marker markers"></i>
+                <i class="fas fa-map-marker markers"></i>
+                <i class="fas fa-map-marker markers"></i>
+                <i class="fas fa-map-marker markers"></i>
+            </div>
+        </div>
+
+        <div id="darkBgSetDiv"></div>
+        <div id="settingsCont">
+            <span id="closingSetArrow">&#8249;</span><br>
+            <div id="settingsDiv">
+                <img id="settingsLogo" src="../../InterfaceMedia/Pictures/myLogo-removebg-preview.png"><br>
+                <div id="settingsOptionsCont">
+                    <div class="optionsConts">
+                        <i class="settingsIcons fa fa-user-cog" id="manageAccountIcon"></i>&nbsp;&nbsp;
+                        <span class="settingsSpans" id="manageAccountSpan">Manage Account</span><br>
+                    </div>
+                    <div class="optionsConts">
+                        <i class="settingsIcons fa fa-bell" id="notificationIcon"></i>&nbsp;&nbsp;&nbsp;
+                        <span class="settingsSpans" id="notificationSpan">Notification</span><br>
+                    </div>
+                    <div class="optionsConts">
+                        <i class="settingsIcons fa fa-paint-brush" id="themesIcon"></i>&nbsp;&nbsp;
+                        <span class="settingsSpans" id="themesSpan">Themes</span><br>
+                    </div>
+                    <div class="optionsConts">
+                        <i class="settingsIcons fa fa-language" id="languageIcon"></i>&nbsp;&nbsp;
+                        <span class="settingsSpans" id="languageSpan">Language</span><br>
+                    </div>
+                    <div class="optionsConts">
+                        <i class="settingsIcons fa fa-user-plus" id="newAccountIcon"></i>&nbsp;&nbsp;
+                        <span class="settingsSpans" id="newAccountSpan">New Account</span><br>
+                    </div>
+                    <div class="optionsConts" id="rangeDiv">
+                        <i class="settingsIcons fa fa-adjust" id="modeLogo"></i>&nbsp;&nbsp;&nbsp;
+                        <span class="settingsSpans" id="modeSpan"><span id="currentMode"></span> Mode</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="../../InterfaceScript/LoginScript.js"></script>
+        <script src="../../InterfaceScript/NavLinksScript.js"></script>
+        <script src="../../InterfaceScript/LogoutScript.js"></script>
+        <script src="../../InterfaceScript/SettingsScript.js"></script>
+        <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+        <script src="DashboardScript.js"></script>
+    </body>
+</html>
